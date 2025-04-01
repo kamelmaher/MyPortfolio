@@ -7,7 +7,7 @@ import Experience from "./components/Experience/Experience"
 import Projects from "./components/Projects/Projects"
 import Contact from "./components/Conteact/Contact"
 import Footer from "./components/Footer"
-import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from "@vercel/analytics/react";
 const App = () => {
   return (
     <Box
