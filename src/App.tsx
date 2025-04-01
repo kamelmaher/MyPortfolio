@@ -8,7 +8,6 @@ import Projects from "./components/Projects/Projects"
 import Contact from "./components/Conteact/Contact"
 import Footer from "./components/Footer"
 const App = () => {
-  console.log("App Rendered")
   return (
     <Box
       margin={{ xs: "0 30px", md: "0 150px" }}

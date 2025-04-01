@@ -6,7 +6,6 @@ import { LINKS } from './Links';
 const Menu = () => {
     const [showMenu, setShowMenu] = useState(false)
     const handleChangeMenu = (e: boolean) => setShowMenu(e)
-    console.log("Menu Rendered")
     return (
         <Box
             display={{ xs: "block", md: "none" }}

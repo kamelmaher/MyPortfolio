@@ -2,7 +2,6 @@ import { Box, Stack, Typography } from "@mui/material"
 import Links from "./Links"
 import Menu from "./Menu"
 const Nav = () => {
-    console.log("Nav Rendered")
     return (
         <Box>
             <Stack
