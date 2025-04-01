@@ -7,6 +7,7 @@ import Experience from "./components/Experience/Experience"
 import Projects from "./components/Projects/Projects"
 import Contact from "./components/Conteact/Contact"
 import Footer from "./components/Footer"
+import { Analytics } from '@vercel/analytics/next';
 const App = () => {
   return (
     <Box
@@ -19,6 +20,7 @@ const App = () => {
       <Projects />
       <Contact />
       <Footer />
+      <Analytics />
     </Box>
   )
 }
