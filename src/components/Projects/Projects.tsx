@@ -7,7 +7,7 @@ import { PROJECTS } from "../../Data/Projects"
 const Projects = () => {
     return (
         <Section
-            titleText="Browse My New"
+            titleText="Browse My Last"
             title="Projects"
         >
             <Stack
