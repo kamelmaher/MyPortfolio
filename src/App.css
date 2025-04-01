@@ -1,0 +1,35 @@
+.link {
+    transition: .3s;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: grey;
+    opacity: 0;
+    transition: .3s;
+}
+
+.link:hover {
+    color: grey;
+}
+
+.link:hover::before {
+    opacity: 100%;
+}
+
+/* Hero */
+
+.social img {
+    width: 32px !important;
+    height: 32px !important;
+}
+
+/* Hero */
