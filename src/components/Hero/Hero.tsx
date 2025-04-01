@@ -1,5 +1,5 @@
 import { Box, Stack } from "@mui/material"
-import personalImg from "/picture.jpg"
+import personalImg from "/picture.webp"
 import SocialLinks from "./SocialLinks"
 import HeroButtons from "./HeroButtons"
 import HeroText from "./HeroText"

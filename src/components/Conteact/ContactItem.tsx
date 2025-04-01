@@ -20,7 +20,7 @@ const ContactItem = ({ icon, title, link }: ContactItemProps) => {
                 {icon}
             </Stack>
             <a href={link} target="_blank">
-                <Typography variant="h6">{title}</Typography>
+                <Typography variant="h6" fontSize={"16px"}>{title}</Typography>
             </a>
         </Stack>
     )

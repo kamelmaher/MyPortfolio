@@ -1,6 +1,6 @@
 import { Stack } from "@mui/material"
-import GitHub from "/github.png"
-import LinkedIn from "/linkedin.png"
+import GitHub from "/github.webp"
+import LinkedIn from "/linkedin.webp"
 const SocialLinks = () => {
     return (
         <Stack

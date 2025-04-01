@@ -1,6 +1,6 @@
 import { Box, Stack } from "@mui/material"
 import Section from "../Section"
-import PersonalImage from "/picture.jpg"
+import PersonalImage from "/picture.webp"
 import AboutCard from "./AboutCard"
 import WorkspacePremiumRoundedIcon from '@mui/icons-material/WorkspacePremiumRounded';
 import PeopleRoundedIcon from '@mui/icons-material/PeopleRounded';

@@ -1,8 +1,8 @@
 /** @format */
-import ProjectOne from "/project-1.jpg";
-import ProjectTwo from "/project-3.jpg";
-import ProjectThree from "/project-4.jpg";
-import ProjectFour from "/project-5.jpg";
+import ProjectOne from "/project-1.webp";
+import ProjectTwo from "/project-3.webp";
+import ProjectThree from "/project-4.webp";
+import ProjectFour from "/project-5.webp";
 export const PROJECTS = [
   {
     img: ProjectOne,
