@@ -33,7 +33,7 @@ const Hero = () => {
                     overflow={"hidden"}
                     borderRadius={"50%"}
                 >
-                    <img src={personalImg} alt="Personal Image" loading="lazy" />
+                    <img src={personalImg} alt="Personal Image" />
                 </Box>
                 <Box
                     textAlign={"center"}
