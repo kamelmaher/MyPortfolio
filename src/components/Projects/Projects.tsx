@@ -13,7 +13,8 @@ const Projects = () => {
             <Stack
                 direction={"row"}
                 flexWrap={"wrap"}
-                justifyContent={"space-between"}
+                gap={2}
+                alignItems={"center"}
             >
                 {
                     PROJECTS.map(project => <ProjectCard key={project.img} project={project} />)
