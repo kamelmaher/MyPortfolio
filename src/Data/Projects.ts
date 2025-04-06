@@ -3,7 +3,7 @@ import ProjectOne from "/project-1.webp";
 import ProjectTwo from "/project-3.webp";
 import ProjectThree from "/project-4.webp";
 import ProjectFour from "/project-5.webp";
-import ProjectFive from "facebook.webp";
+import ProjectFive from "/facebook.webp";
 export const PROJECTS = [
   {
     img: ProjectOne,
