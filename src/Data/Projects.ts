@@ -3,6 +3,7 @@ import ProjectOne from "/project-1.webp";
 import ProjectTwo from "/project-3.webp";
 import ProjectThree from "/project-4.webp";
 import ProjectFour from "/project-5.webp";
+import ProjectFive from "facebook.webp";
 export const PROJECTS = [
   {
     img: ProjectOne,
@@ -35,5 +36,13 @@ export const PROJECTS = [
       "A task and project management app inspired by Trello, featuring interactive lists and draggable cards.",
     gitHubLink: "https://github.com/kamelmaher/Trello",
     liveDemoLink: "https://trello-blush-kappa.vercel.app/",
+  },
+  {
+    img: ProjectFive,
+    title: "Facebook",
+    projectDesc:
+      "A facebook Clone that build with React and Typescript and used LocalStorage for storing data.",
+    gitHubLink: "https://github.com/kamelmaher/SocialMediaApp",
+    liveDemoLink: "https://social-media-app-tau-plum.vercel.app/",
   },
 ];
