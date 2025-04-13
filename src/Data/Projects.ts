@@ -4,6 +4,7 @@ import ProjectTwo from "/project-3.webp";
 import ProjectThree from "/project-4.webp";
 import ProjectFour from "/project-5.webp";
 import ProjectFive from "/facebook.webp";
+import landingPage from "/landingPage.webp";
 export const PROJECTS = [
   {
     img: ProjectOne,
@@ -44,5 +45,12 @@ export const PROJECTS = [
       "A facebook Clone that build with React and Typescript and used LocalStorage for storing data.",
     gitHubLink: "https://github.com/kamelmaher/SocialMediaApp",
     liveDemoLink: "https://social-media-app-tau-plum.vercel.app/",
+  },
+  {
+    img: landingPage,
+    title: "Landing Page",
+    projectDesc: "",
+    gitHubLink: "https://github.com/kamelmaher/ReactLandingPage",
+    liveDemoLink: "https://react-landing-page-mf49.vercel.app/",
   },
 ];
