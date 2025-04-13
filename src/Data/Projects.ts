@@ -4,7 +4,7 @@ import ProjectTwo from "/project-3.webp";
 import ProjectThree from "/project-4.webp";
 import ProjectFour from "/project-5.webp";
 import ProjectFive from "/facebook.webp";
-import landingPage from "/landingPage.webp";
+import landingPage from "/landing_page.webp";
 export const PROJECTS = [
   {
     img: ProjectOne,
