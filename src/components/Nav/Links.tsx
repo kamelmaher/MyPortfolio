@@ -1,5 +1,5 @@
 import { Stack, Typography } from "@mui/material"
-export const LINKS = ["About", "Experience", "Projects", "Contact"]
+import { links } from "../../Data"
 const Links = () => {
     return (
         <Stack
@@ -8,7 +8,13 @@ const Links = () => {
             display={{ xs: "none", md: "flex" }}
         >
             {
-                LINKS.map(link => <Typography key={link} variant="h6" component={"p"} className="pointer link">
+                links.map(link => <Typography
+                    key={link}
+                    variant="h6"
+                    component={"p"}
+                    className="pointer link"
+                    fontSize={18}
+                >
                     <a href={`#${link}`}>{link}</a>
                 </Typography>)
             }

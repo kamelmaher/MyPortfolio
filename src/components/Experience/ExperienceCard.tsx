@@ -20,6 +20,10 @@ const ExperienceCard = ({ title, list }: ExperienceCardProps) => {
                 mt={3}
                 direction={"row"}
                 flexWrap={"wrap"}
+                alignItems={{
+                    xs: "center",
+                    md: "start"
+                }}
             >
                 {
                     list.map(skill => <Skill key={skill.name} skill={skill} />)

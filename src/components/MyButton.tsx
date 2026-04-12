@@ -15,7 +15,8 @@ const MyButton = ({ value, contained, link, size }: MyButtonProps) => {
             style={{
                 color: contained ? "white" : "black",
                 background: contained ? "#353535" : "white",
-                border: contained ? "none" : "1px solid black"
+                border: contained ? "none" : "1px solid black",
+                fontWeight: "semibold",
             }}
             size={size}
         >

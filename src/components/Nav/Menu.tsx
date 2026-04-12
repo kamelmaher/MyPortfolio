@@ -2,7 +2,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { Box, Stack, Typography } from '@mui/material';
 import { useState } from 'react';
-import { LINKS } from './Links';
+import { links } from '../../Data';
 const Menu = () => {
     const [showMenu, setShowMenu] = useState(false)
     const handleChangeMenu = (e: boolean) => setShowMenu(e)
@@ -28,7 +28,7 @@ const Menu = () => {
                             bgcolor={"white"}
                         >
                             {
-                                LINKS.map(link => <Typography key={link} variant='h6' fontSize={"20px"} className='pointer' margin={"5px 0"}>
+                                links.map(link => <Typography key={link} variant='h6' fontSize={"20px"} className='pointer' margin={"5px 0"}>
                                     <a href={`#${link}`}>{link}</a>
                                 </Typography>)
                             }

@@ -67,8 +67,6 @@ a {
     font-weight: 700;
 }
 
-.my-card {
-    border: 1px solid var(--text-secondary);
-    border-radius: 32px;
-    padding: 24px;
+.project-card{
+    height: 100%;
 }

@@ -12,13 +12,13 @@ const Skill = ({ skill }: SkillProps) => {
             spacing={1}
             width={{
                 xs: "100%",
-                sm: "calc(100% / 2)"
+                md: "calc(100% / 2)"
             }}
             mb={3}
         >
             <VerifiedRoundedIcon />
             <Box>
-                <p>{skill.name}</p>
+                <p style={{ fontWeight: "600" }}>{skill.name}</p>
                 <p className="text">{skill.level}</p>
             </Box>
         </Stack>

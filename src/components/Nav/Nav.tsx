@@ -12,7 +12,14 @@ const Nav = () => {
                     xs: "20px 0"
                 }}
             >
-                <Typography variant="h5" component={"h1"} className="logo">Kamel Maher</Typography>
+                <Typography
+                    variant="h5"
+                    component={"h1"}
+                    className="logo"
+                    fontWeight={"semibold"}
+                >
+                    Kamel Maher
+                </Typography>
                 <Links />
                 <Menu />
             </Stack>

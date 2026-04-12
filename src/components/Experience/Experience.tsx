@@ -7,7 +7,7 @@ const Experience = () => {
     return (
         <Section
             titleText="Explore My"
-            title="Experience"
+            title="Skills"
         >
             <Stack
                 direction={{
