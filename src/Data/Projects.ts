@@ -1,56 +1,29 @@
-/** @format */
-import ProjectOne from "/project-1.webp";
-import ProjectTwo from "/project-3.webp";
-import ProjectThree from "/project-4.webp";
-import ProjectFour from "/project-5.webp";
-import ProjectFive from "/facebook.webp";
-import landingPage from "/landing_page.webp";
 export const PROJECTS = [
   {
-    img: ProjectOne,
-    title: "User Dashboard",
-    projectDesc:
-      "An advanced dashboard built with React and TypeScript, displaying data and analytics with a flexible and user-friendly interface.",
-    gitHubLink: "https://github.com/kamelmaher/ReactDashboard",
-    liveDemoLink: "https://react-dashboard-beta-three.vercel.app/",
+    title: "Next Task",
+    image: "/projects/NextTask.jpg",
+    desc: "Next Task is a full-stack freelancing platform that connects clients with freelancers through a streamlined workflow for posting jobs, submitting proposals, managing projects, and communicating in real time. It features role-based dashboards, secure authentication, and a responsive user experience designed for scalability and efficiency.",
+    skills: ["React", "ExpressJs", "MongoDb", "TypeScript"],
+    demoLink: "https://next-task-weld.vercel.app",
+    gitHubLink: "https://github.com/kamelmaher/NextTask",
+    createdAt: "2026"
   },
   {
-    img: ProjectTwo,
-    title: "Movies Land",
-    projectDesc:
-      "A platform to explore the latest movies and TV shows, with search functionality, detailed information, and ratings.",
-    gitHubLink: "https://github.com/kamelmaher/Movies",
-    liveDemoLink: "https://movies-pi-dun.vercel.app/",
+    title: "Smile Desk",
+    image: "/projects/smile-desk.png",
+    desc: "Smile Desk is a SaaS clinic management platform built to help dental clinics manage appointments, patient communication, and daily operations more efficiently. It includes clinic-based workflows, subscription management, SMS notifications, and a streamlined dashboard experience for both clinic staff and administrators.",
+    skills: ["React", "ExpressJs", "MongoDb", "TypeScript"],
+    demoLink: "https://smiledesk-nine.vercel.app/",
+    gitHubLink: "https://github.com/kamelmaher/dentapp",
+    createdAt: "2026"
   },
   {
-    img: ProjectThree,
-    title: "Around The World",
-    projectDesc:
-      "An interactive guide that provides detailed information about every country, including its flag, population, currency, and location.",
-    gitHubLink: "https://github.com/kamelmaher/Around-The-World",
-    liveDemoLink: "https://around-the-world-edlp.vercel.app/",
-  },
-  {
-    img: ProjectFour,
-    title: "Trello",
-    projectDesc:
-      "A task and project management app inspired by Trello, featuring interactive lists and draggable cards.",
-    gitHubLink: "https://github.com/kamelmaher/Trello",
-    liveDemoLink: "https://trello-blush-kappa.vercel.app/",
-  },
-  {
-    img: ProjectFive,
-    title: "Facebook",
-    projectDesc:
-      "A facebook Clone that build with React and Typescript and used LocalStorage for storing data.",
-    gitHubLink: "https://github.com/kamelmaher/SocialMediaApp",
-    liveDemoLink: "https://social-media-app-tau-plum.vercel.app/",
-  },
-  {
-    img: landingPage,
-    title: "Landing Page",
-    projectDesc: "",
-    gitHubLink: "https://github.com/kamelmaher/ReactLandingPage",
-    liveDemoLink: "https://react-landing-page-mf49.vercel.app/",
+    title: "SuperMarket System",
+    image: "/projects/supermarket.jpg",
+    desc: "Supermarket Management System is a desktop application built with React and Electron to manage supermarket operations in a local environment. It streamlines product management, sales tracking, and daily store workflows through a fast, user-friendly interface designed for offline use.",
+    skills: ["React", "ExpressJs", "MongoDb", "TypeScript", "ElectronJs"],
+    demoLink: "",
+    gitHubLink: "",
+    createdAt: "2026"
   },
 ];

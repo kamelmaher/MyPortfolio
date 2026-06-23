@@ -1,52 +1,45 @@
-import { Box, Stack, Typography } from "@mui/material"
-import MyButton from "../MyButton"
-import { Project } from "../../types/Project"
-import Animated from "../Animated"
-type ProjectCardProps = {
-    project: Project
+type Project = {
+    demoLink: string,
+    image: string,
+    title: string,
+    desc: string,
+    createdAt: string,
+    gitHubLink: string
+    skills: string[]
 }
-const ProjectCard = ({ project }: ProjectCardProps) => {
-    const { title: projectTitle, img, projectDesc, gitHubLink, liveDemoLink } = project
+const ProjectCard = ({ project }: { project: Project }) => {
     return (
-        <Box
-            width={{
-                xs: "100%",
-                sm: "calc(100% / 2 - 15px)",
-                md: "calc(100% / 3 - 15px)",
-            }}
-            style={{
-                border: "1px solid var(--text-secondary)",
-                borderRadius: "32px",
-            }}
-            padding={3}
-        >
-            <Animated className="project-card">
-                <Box
-                    display={"flex"}
-                    flexDirection={"column"}
-                    justifyContent={"space-between"}
-                    height={"100%"}
-                >
-                    <Box>
-                        <Box borderRadius={"12px"} overflow={"hidden"} height={"200px"}>
-                            <img src={img} alt={projectTitle} loading="lazy" />
-                        </Box>
-                        <Box textAlign={"center"} mt={2}>
-                            <Typography variant="h6" mb={1}>{projectTitle}</Typography>
-                            <p className="text" style={{ fontSize: "14px" }}>{projectDesc}</p>
-                        </Box>
-                    </Box>
-                    <Stack direction={"column"} spacing={2} alignItems={"center"} mt={3}>
-                        <a href={gitHubLink} target="_blank">
-                            <MyButton value="GitHub" size="small"></MyButton>
-                        </a>
-                        <a href={liveDemoLink} target="_blank">
-                            <MyButton contained value="Live Demo" size="medium"></MyButton>
-                        </a>
-                    </Stack>
-                </Box>
-            </Animated>
-        </Box >
+        <article className="group">
+            <div className="relative w-full aspect-[4/3] bg-surface outline outline-1 -outline-offset-1 outline-white/5 rounded-sm mb-6 overflow-hidden group-hover:outline-primary/40 transition-all">
+                <a href={project.demoLink} target="_blank">
+                    <img
+                        src={project.image}
+                        alt={`${project.title} preview`}
+                        loading="lazy"
+                        className="size-full object-contain opacity-90 group-hover:opacity-100 group-hover:scale-[1.02] transition-all duration-700"
+                    />
+                </a>
+            </div>
+            <div className="flex justify-between items-start gap-6">
+                <div>
+                    <h3 className="text-lg font-medium mb-1">{project.title}</h3>
+                    <p className="text-sm text-text-dim leading-relaxed max-w-md">
+                        {project.desc}
+                    </p>
+                    <div className="mt-4 flex flex-wrap gap-2">
+                        {project.skills.map((s) => (
+                            <span
+                                key={s}
+                                className="text-[10px] font-mono uppercase tracking-wider text-text-dim border border-border px-2 py-0.5 rounded-xs"
+                            >
+                                {s}
+                            </span>
+                        ))}
+                    </div>
+                </div>
+                <div className="text-primary font-mono text-xs shrink-0">{project.createdAt}</div>
+            </div>
+        </article>
     )
 }
 
