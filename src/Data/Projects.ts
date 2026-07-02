@@ -10,7 +10,7 @@ export const PROJECTS = [
   },
   {
     title: "Smile Desk",
-    image: "/projects/smile-desk.png",
+    image: "/projects/banner.png",
     desc: "Smile Desk is a SaaS clinic management platform built to help dental clinics manage appointments, patient communication, and daily operations more efficiently. It includes clinic-based workflows, subscription management, SMS notifications, and a streamlined dashboard experience for both clinic staff and administrators.",
     skills: ["React", "ExpressJs", "MongoDb", "TypeScript"],
     demoLink: "https://smiledesk-nine.vercel.app/",
